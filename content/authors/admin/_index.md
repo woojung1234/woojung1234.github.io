@@ -6,7 +6,7 @@ title: Kim woojung (김우중)
 superuser: true
 
 # Role/position
-role: ''
+role: '전북대학교 통계학과 3학년'
 
 # Status emoji
 status:
