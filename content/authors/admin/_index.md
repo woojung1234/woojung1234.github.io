@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Alice Wu (吳恩達)
+title: Kim woojung (김우)
 
 # Is this the primary user of the site?
 superuser: true
