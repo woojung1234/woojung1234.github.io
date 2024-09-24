@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Kim woojung (김우중)
+title: Kim Woojung
 
 # Is this the primary user of the site?
 superuser: true
