@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
+    - name: 기계학습
       tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: 회귀 분석
+      tag: RE
+    - name: 알고리즘
+      tag: ALG
 
 design:
   columns: '1'
