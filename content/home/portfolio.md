@@ -28,7 +28,7 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: 기계학습
+    - name: 기계 학습
       tag: ML
     - name: 회귀 분석
       tag: RE

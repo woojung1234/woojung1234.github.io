@@ -1,5 +1,5 @@
 ---
-title: Cartoon Face Generator
+title: League of legend
 summary: Write about your project here...
 tags:
   - CV
