@@ -18,7 +18,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 전북대학교 통계학과 전공 중, 복수전공 컴퓨터 공학과 3학년 재학중.
 
 #interests:
 #- Artificial Intelligence
