@@ -6,8 +6,7 @@ title: Kim Woojung
 superuser: true
 
 # Role/position
-role: '전북대학교 통계학과 3학년'
-
+role: 'JBNU Statistics 3rd year'
 # Status emoji
 status:
   icon: ☕️
@@ -18,7 +17,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 전북대학교 통계학과 전공 중, 복수전공 컴퓨터 공학과 3학년 재학중.
+bio: JBNU majoring in Statistics, double majoring in Computer Science, 3rd year.
 
 #interests:
 #- Artificial Intelligence
