@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: 기계 학습
+    - name: Machine Learning
       tag: ML
-    - name: 회귀 분석
-      tag: RE
-    - name: 알고리즘
-      tag: ALG
+    - name: Regression Analysis
+      tag: RA
+    - name: Algorithm
+      tag: AL
 
 design:
   columns: '1'
