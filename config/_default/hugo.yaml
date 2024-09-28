@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: woojung1234's blog # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://woojung1234.github.io/en/' # Website URL
 
 ############################
 ## PAGE OPTIONS
