@@ -2,25 +2,25 @@
 // https://hugoblox.com/hugo-themes/
 
 body {
-  background-color: rgb(247, 250, 252);
+  background-color: rgba(247, 247, 252, 0.568);
 }
 
 .article-container {
-  background-color: #fff;
+  background-color: #ffffff9c;
   border-radius: 15px;
 }
 
 .dark .article-container {
-  background-color: rgb(31, 39, 51);
+  background-color: rgb(17, 15, 17);
 }
 
 // custom footer color
 .page-footer {
-  background-color: rgb(247, 250, 252);
+  background-color: rgb(247, 252, 252);
 }
 
 .dark .page-footer {
-  background-color: rgb(26, 32, 44);
+  background-color: rgb(0, 0, 0);
 }
 
 // more rounded cards and larger gap between cards
