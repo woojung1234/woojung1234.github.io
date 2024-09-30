@@ -2,25 +2,25 @@
 // https://hugoblox.com/hugo-themes/
 
 body {
-  background-color: rgba(247, 247, 252, 0.568);
+  background-color: rgba(53, 172, 241, 0.712);
 }
 
 .article-container {
-  background-color: #ffffff9c;
+  background-color: #51b1d69c;
   border-radius: 15px;
 }
 
 .dark .article-container {
-  background-color: rgb(17, 15, 17);
+  background-color: rgb(47, 27, 94);
 }
 
 // custom footer color
 .page-footer {
-  background-color: rgb(247, 252, 252);
+  background-color: rgba(53, 172, 241, 0.712);
 }
 
 .dark .page-footer {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(47, 27, 94);
 }
 
 // more rounded cards and larger gap between cards
@@ -30,7 +30,7 @@ body {
 }
 
 .dark .card-simple {
-  background: rgb(31, 39, 51);
+  background: rgb(47, 27, 94);
 }
 
 // no navbar shadow
