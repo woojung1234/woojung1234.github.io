@@ -1,0 +1,10 @@
+/* Search icon 위치 조정 */
+.navbar .search {
+    float: right; /* 오른쪽으로 정렬 */
+    margin-right: 20px; /* 오른쪽 여백 추가 */
+}
+
+/* 또는 필요에 따라 다른 속성 추가 */
+.navbar .search input {
+    padding: 10px; /* 입력 박스의 패딩 조정 */
+}
