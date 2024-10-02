@@ -10,7 +10,6 @@ appearance:
   theme_night: custom
   font: minimal
   font_size: L
-  custom_css: ["css/custom.css"]
 
 # SEO
 
