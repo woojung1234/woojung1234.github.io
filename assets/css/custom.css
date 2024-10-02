@@ -2,8 +2,8 @@
 
 /* 검색 아이콘 위치 조정 */
 .navbar .search {
-    float: right; /* 오른쪽으로 정렬 */
-    margin-right: 20px; /* 오른쪽 여백 추가 */
+    float: left; /* 오른쪽으로 정렬 */
+    margin-left: 20px; /* 오른쪽 여백 추가 */
     display: flex; /* 아이콘과 입력 필드를 수평으로 배치 */
     align-items: center; /* 세로 중앙 정렬 */
 }
