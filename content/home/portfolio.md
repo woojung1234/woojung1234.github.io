@@ -28,11 +28,11 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
+    - name: 1st
       tag: ML
-    - name: Regression Analysis
+    - name: 2nd
       tag: RA
-    - name: Algorithm
+    - name: 3rd
       tag: AL
 
 design:
