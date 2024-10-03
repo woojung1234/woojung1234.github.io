@@ -7,6 +7,9 @@ main:
   - name: Home
     url: /
     weight: 10
+    - name: next
+      url: /
+      weight: 10
   - name: introduce
     url: about/
     weight: 20
