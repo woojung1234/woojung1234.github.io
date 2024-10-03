@@ -12,6 +12,10 @@ main:
     url: /
     weight: 10
     parent:  "Home"
+  - name: over
+    url: /
+    weight: 10
+    parent:  "Home"
   - name: introduce
     url: about/
     weight: 20
