@@ -7,9 +7,11 @@ main:
   - name: Home
     url: /
     weight: 10
-    - name: next
-      url: /
-      weight: 10
+    identifier: "Home"
+  - name: next
+    url: /
+    weight: 10
+    parent:  "Home"
   - name: introduce
     url: about/
     weight: 20
