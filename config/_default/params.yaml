@@ -95,13 +95,10 @@ features:
       index_name: ''
       show_logo: true
   map:
-    provider: 'mapnik'
+    provider: ''
     api_key: ''
     zoom: 15
-  content:
-    coordinates:
-      latitude: '37.5665'  # 위도
-      longitude: '126.978'  # 경도
+
 
 extensions:
   cms:
