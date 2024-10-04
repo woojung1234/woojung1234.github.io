@@ -18,9 +18,7 @@ design:
         - /assets/media/slide1.jpg
         - /assets/media/slide2.jpg
   css_class: slideshow
-
 ---
-
 
 {{ partial "slideshow.html" . }}
 
