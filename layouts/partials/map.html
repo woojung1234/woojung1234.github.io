@@ -1,0 +1,17 @@
+<div id="map" style="height: 400px; width: 100%;"></div>
+
+<script>
+  // OpenStreetMap 설정
+  const map = L.map('map').setView([37.5665, 126.978], 13); // 위도, 경도 설정
+
+  // OpenStreetMap 타일 레이어 추가
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap'
+  }).addTo(map);
+
+  // 마커 추가 (원하는 위치에 추가)
+  L.marker([37.5665, 126.978]).addTo(map)
+    .bindPopup('서울')
+    .openPopup();
+</script>
