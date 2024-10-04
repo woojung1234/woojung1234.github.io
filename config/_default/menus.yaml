@@ -28,7 +28,3 @@ main:
   - name: project
     url: project/
     weight: 10
-  - name: Dream
-    url: project/
-    weight: 10
-    identifier: "Home"
