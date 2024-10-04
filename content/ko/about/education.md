@@ -37,6 +37,13 @@ experience:
     date_start: '2019-01-01'
     date_end: ''
     description: 가장 좋아하는 가수
+  
+  - title: 온라인 게임
+    company: League Of Legends
+    company_url: ''
+    date_start: '2013-01-01'
+    date_end: ''
+    description: 자연대 리그 1위
 
 design:
   columns: '1'

@@ -29,6 +29,14 @@ experience:
     date_start: '2017-03-01'
     date_end: '2020-02-10'
     description: 3학년 개근
+  
+  - title: 대한민국 육군 전역
+    company: 강한 육군
+    company_url: ''
+    location: 경기도 안양시
+    date_start: '2021-12-13'
+    date_end: '2023-06-05'
+    description: 육군 병장 만기 전역
 
   - title: 전북대학교 재학중
     company: 전북대학교
