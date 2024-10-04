@@ -10,4 +10,5 @@ design:
       latitude: '35.846'  # 위도
       longitude: '127.134'  # 경도
     autolink: true
+    columns: '1'
 ---
