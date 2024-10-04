@@ -28,7 +28,7 @@ content:
 design:
   columns: '1'
 
-  <div id="map" style="height: 400px; width: 100%;"></div>
+<div id="map" style="height: 400px; width: 100%;"></div>
 
 <script>
   // OpenStreetMap을 기반으로 지도 생성
