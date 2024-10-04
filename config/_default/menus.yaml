@@ -9,22 +9,22 @@ main:
     weight: 10
   - name: Dream
     url: project/
-    weight: 10
+    weight: 30
     identifier: "Dream"
-  - name: next
+  - name: web developer
     url: /
     weight: 10
     parent:  "Dream"
-  - name: over
+  - name: young & rich
     url: /
-    weight: 10
+    weight: 15
     parent:  "Dream"
   - name: introduce
     url: about/
-    weight: 20
+    weight: 15
   - name: University
     url: https://stat.jbnu.ac.kr/stat/index.do#:~:text=%EC%B0%BE%EC%95%84%EC%98%A4%EC%8B%9C%EB%8A%94%EA%B8%B8.
-    weight: 10
+    weight: 20
   - name: project
     url: project/
-    weight: 10
+    weight: 25
