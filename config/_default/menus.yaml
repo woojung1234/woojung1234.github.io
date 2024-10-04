@@ -10,15 +10,15 @@ main:
   - name: Dream
     url: project/
     weight: 10
-    identifier: "Home"
+    identifier: "Dream"
   - name: next
     url: /
     weight: 10
-    parent:  "Home"
+    parent:  "Dream"
   - name: over
     url: /
     weight: 10
-    parent:  "Home"
+    parent:  "Dream"
   - name: introduce
     url: about/
     weight: 20
