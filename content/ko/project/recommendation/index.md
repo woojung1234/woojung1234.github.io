@@ -1,5 +1,5 @@
 ---
-title: 세번째 프로젝으
+title: 3rd
 summary: 타이타닉의 생존자 예측하기
 tags:
   - AL
