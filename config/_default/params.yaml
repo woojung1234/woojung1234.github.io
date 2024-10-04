@@ -17,17 +17,17 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    org_name: '전북대학교 김우중'  # 자신의 이름 또는 브랜드명
+    description: '전북대학교에서 컴퓨터 공학을 복수 전공하는 김우중의 블로그입니다.'  # 간단한 자기소개 및 포트폴리오 설명
   analytics:
-    google_analytics: ''
+    google_analytics: ''  # Google Analytics ID 추가
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''
+    google: ''  # Google Search Console에 등록 후 얻은 verification code 추가
     baidu: ''
+
 
 # Site header
 
