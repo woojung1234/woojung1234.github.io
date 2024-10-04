@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: '반갑습니다'
-subtitle: '저에용'
+title: '프로젝트'
+subtitle: '학교 수업 중 진행한 것입니다.'
 
 content:
   # Page type to display. E.g. project.
