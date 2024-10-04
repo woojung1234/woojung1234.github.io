@@ -24,22 +24,22 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
   - certificate_url: ''
-    date_end: '2023-12'
-    date_start: '2023-09'
+    date_end: '2023-12-20'
+    date_start: '2023-09-01'
     description: ''
     organization: '통계학과'
     organization_url: 
     title: '수리통계학2'
     url: ''
   - certificate_url: 
-    date_end: '2024-06'
-    date_start: '2023-09'
+    date_end: '2024-06-20'
+    date_start: '2023-09-01'
     organization: '통계학과'
     organization_url: 
     title: '회귀분석1,2'
   - certificate_url: ''
-    date_end: '2023-12'
-    date_start: '2023-09'
+    date_end: '2023-12-20'
+    date_start: '2023-09-01'
     description: ''
     organization: '통계학과'
     organization_url: ''
