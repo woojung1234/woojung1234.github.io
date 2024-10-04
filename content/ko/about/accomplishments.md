@@ -10,8 +10,8 @@ headless: true
 weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: 'Accomplish&shy;ments'
-subtitle:
+title: '수강 전공 과목'
+subtitle: 통계학과
 
 # Date format
 #   Refer to https://docs.hugoblox.com/customization/#date-format
@@ -23,29 +23,27 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-  - certificate_url: https://www.coursera.org
+  - certificate_url: ''
     date_end: ''
     date_start: '2021-01-25'
     description: ''
-    organization: Coursera
-    organization_url: https://www.coursera.org
-    title: Neural Networks and Deep Learning
+    organization: '통계학과'
+    organization_url: 
+    title: '수리통계학'
     url: ''
-  - certificate_url: https://www.edx.org
+  - certificate_url: 
     date_end: ''
     date_start: '2021-01-01'
-    description: Formulated informed blockchain models, hypotheses, and use cases.
-    organization: edX
-    organization_url: https://www.edx.org
-    title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  - certificate_url: https://www.datacamp.com
+    organization: '통계학과'
+    organization_url: 
+    title: '회귀분석1,2'
+  - certificate_url: ''
     date_end: '2020-12-21'
     date_start: '2020-07-01'
     description: ''
-    organization: DataCamp
-    organization_url: https://www.datacamp.com
-    title: 'Object-Oriented Programming in R'
+    organization: '통계학과'
+    organization_url: ''
+    title: '보험수리학'
     url: ''
 
 design:
