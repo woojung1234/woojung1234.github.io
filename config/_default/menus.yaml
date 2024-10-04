@@ -9,11 +9,11 @@ main:
     weight: 10
     identifier: "Home"
   - name: next
-    url: /
+    url: about/
     weight: 10
     parent:  "Home"
   - name: over
-    url: /
+    url: about/
     weight: 10
     parent:  "Home"
   - name: introduce
