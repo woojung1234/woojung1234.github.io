@@ -28,7 +28,17 @@ content:
 design:
   columns: '1'
 
-# 지도 Partial 호출 추가
+  <div id="map" style="height: 400px; width: 100%;"></div>
+
+<script>
+  // OpenStreetMap을 기반으로 지도 생성
+  var map = L.map('map').setView([{{ .Params.map.coordinates.latitude }}, {{ .Params.map.coordinates.longitude }}], {{ .Params.map.zoom }});
+
+  // 타일 레이어 추가 (OpenStreetMap 타일 서버 사용)
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+  }).addTo(map);
+</script>
+
 ---
-{{ partial "map.html" . }}
 
