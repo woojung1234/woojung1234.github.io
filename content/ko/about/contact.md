@@ -25,19 +25,7 @@ content:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
 
-title: "Contact"
-date: 2024-10-04T12:00:00+09:00
-draft: false
-
-map:
-  provider: 'mapnik'
-  zoom: 15
-  coordinates:
-    latitude: '35.846'  # 위도
-    longitude: '127.134'  # 경도      
-
 design:
   columns: '1'
 ---
 
-{{< map >}}
