@@ -26,5 +26,5 @@ main:
     url: project/
     weight: 10
   - name: Dream
-    url: /
+    url: project/
     weight: 10
