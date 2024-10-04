@@ -62,10 +62,8 @@ social:
 #email: ""
 ---
 
-Woojung Kim is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+전북대에서 통계와 컴퓨터 공학을 전공하고 있는 김우중입니다. 제 목표는 웹 개발을 잘하게 되는 것입니다. 관심 분야는 게임 통계 사이트 제작, 쇼핑몰 제작을 해보고 싶습니다. 관심을 갖게 된 지 얼마 되지 않아 웹 개발 언어는 아직 미숙합니다. 이번 학기에는 웹 개발에 익숙해지는 것을 목표로 하고 있습니다. 방문해주셔서 감사합니다.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
-
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} pdf파일입니다. 최근에 발표했던 자료 넣었습니다.
 
 
