@@ -1,6 +1,9 @@
 ---
+widget: tmi
+weight: 50
+headless: true
 title: TMI
-type: landing
+
 
 sections:
     - block: markdown
