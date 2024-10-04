@@ -6,9 +6,6 @@ author: admin  # 작성자
 title: 위치
 # 위젯 설정
 design:
-    coordinates:
-      latitude: '35.846'  # 위도
-      longitude: '127.134'  # 경도
     autolink: true
     columns: '1'
 ---
