@@ -9,13 +9,13 @@ headless: true
 weight: 10
 
 author: admin
-#design:
-#  background:
-#    color: '#090a0b'
-#    text_color_light: true
-#    video:
-#      path:  # enter filename of a video in /assets/media
-#  css_class: fullscreen
+design:
+  background:
+    color: '#090a0b'
+    text_color_light: true
+    video:
+      path:  # enter filename of a video in /assets/media
+  css_class: fullscreen
 ---
 
 👋 안녕하세요. 김우중입니다. 저는 전북대학교 통계학과 3학년이고, 컴퓨터 공학을 복수 전공하고 있습니다.
