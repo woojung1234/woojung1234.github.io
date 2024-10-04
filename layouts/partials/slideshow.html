@@ -4,29 +4,42 @@
         <img src="{{ . }}" style="width:100%">
       </div>
     {{ end }}
-  </div>
+</div>
 
-  <!-- 다음과 이전 버튼 -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-  <!-- JavaScript 슬라이드쇼 기능 -->
-  <script>
-  let slideIndex = 0;
-  document.addEventListener('DOMContentLoaded', (event) => {
-      showSlides();
-  });
-  
-  function showSlides() {
-    let slides = document.getElementsByClassName("mySlides");
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-      slideIndex = 1;
-    }
-    slides[slideIndex - 1].style.display = "block";
-    setTimeout(showSlides, 5000); // 5초마다 슬라이드 전환
+<!-- 이전 및 다음 버튼 -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!-- 슬라이드쇼 기능을 위한 JavaScript -->
+<script>
+let slideIndex = 0;
+document.addEventListener('DOMContentLoaded', (event) => {
+    showSlides();
+});
+
+function showSlides() {
+  let slides = document.getElementsByClassName("mySlides");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-  </script>
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex - 1].style.display = "block";  
+  setTimeout(showSlides, 5000); // 5초마다 슬라이드 전환
+}
+</script>
+
+<style>
+.mySlides {
+    display: none;
+}
+
+.fade {
+    animation: fade 1.5s ease;
+}
+
+@keyframes fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+</style>
