@@ -7,7 +7,10 @@ main:
   - name: Home
     url: /
     weight: 10
-    
+  - name: Dream
+    url: project/
+    weight: 10
+    identifier: "Home"
   - name: next
     url: /
     weight: 10

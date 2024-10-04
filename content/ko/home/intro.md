@@ -20,7 +20,7 @@ design:
   css_class: slideshow
 ---
 
-{{ partial "slideshow.html" . }}
+
 
 
 👋 안녕하세요. 김우중입니다. 저는 전북대학교 통계학과 3학년이고, 컴퓨터 공학을 복수 전공하고 있습니다.
