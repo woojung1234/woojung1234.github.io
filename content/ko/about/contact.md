@@ -27,4 +27,8 @@ content:
 
 design:
   columns: '1'
+
+# 지도 Partial 호출 추가
 ---
+{{ partial "map.html" . }}
+
