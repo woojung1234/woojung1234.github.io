@@ -1,6 +1,6 @@
 ---
-title: 3rd project
-summary: predict to survive in titanic
+title: 세번째 프로젝으
+summary: 타이타닉의 생존자 예측하기
 tags:
   - AL
 date: 2022-01-01

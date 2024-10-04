@@ -18,7 +18,7 @@ author: admin
 #  css_class: fullscreen
 ---
 
-👋 Hi, there! I'm **Woojung**, I am a junior at Chonbuk National University, majoring in statistics, and double major in computer engineering.
+👋 안녕하세요. 김우중입니다. 저는 전북대학교 통계학과 3학년이고, 컴퓨터 공학을 복수 전공하고 있습니다.
 {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
-Check out my [introduce](/about/) and portfolio below 😍
+Check out my [introduce](https://woojung1234.github.io/ko/about/) and portfolio below 😍

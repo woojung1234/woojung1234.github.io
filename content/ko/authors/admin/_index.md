@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Kim Woojung
+title: 김우중
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: 'JBNU Statistics 3rd year'
+role: '전북대 3학년 재학중'
 # Status emoji
 status:
   icon: ☕️
@@ -17,12 +17,12 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: JBNU majoring in Statistics, double majoring in Computer Science, 3rd year.
+bio: 전북대 통계학과 3학년, 컴퓨터 공학 복수전공 중.
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- 웹서비스
+- 통계학
+- 축구
 
 #education:
 #  courses:

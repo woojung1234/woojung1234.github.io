@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: 'Hello'
-subtitle: 'it is me'
+title: '반갑습니다'
+subtitle: '저에용'
 
 content:
   # Page type to display. E.g. project.
@@ -26,13 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: All
+    - name: 전체
       tag: '*'
-    - name: 1st
+    - name: 첫번째
       tag: ML
-    - name: 2nd
+    - name: 두번째
       tag: RA
-    - name: 3rd
+    - name: 세번째
       tag: AL
 
 design:

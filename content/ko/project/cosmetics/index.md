@@ -1,6 +1,6 @@
 ---
-title: 2nd project
-summary: kaggle to study
+title: 두번째 프로젝트
+summary: 캐글을 활용한 프로젝트
 tags:
   - RA
 date: 2022-01-01
