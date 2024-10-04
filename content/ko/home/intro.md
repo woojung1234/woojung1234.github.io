@@ -14,7 +14,7 @@ design:
     color: '#090a0b'
     text_color_light: true
     video:
-      path:  # enter filename of a video in /assets/media
+      path: /assets/media/images # enter filename of a video in /assets/media
   css_class: fullscreen
 ---
 
