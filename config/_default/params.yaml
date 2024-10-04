@@ -95,9 +95,13 @@ features:
       index_name: ''
       show_logo: true
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
+  content:
+    coordinates:
+      latitude: '37.4275'
+      longitude: '-122.1697'
 
 extensions:
   cms:
