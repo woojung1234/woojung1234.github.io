@@ -6,10 +6,8 @@ author: admin  # 작성자
 title: 위치
 # 위젯 설정
 design:
-  map:
-    provider: 'mapnik'  # 지도 제공업체
-    api_key: ''  # 필요하다면 API 키
     coordinates:
-      latitude: '37.5665'  # 위도
-      longitude: '126.978'  # 경도
+      latitude: '35.846'  # 위도
+      longitude: '127.134'  # 경도
+    autolink: true
 ---
