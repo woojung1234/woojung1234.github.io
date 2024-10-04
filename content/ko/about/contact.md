@@ -25,20 +25,19 @@ content:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
 
+title: "Contact"
+date: 2024-10-04T12:00:00+09:00
+draft: false
+
+map:
+  provider: 'mapnik'
+  zoom: 15
+  coordinates:
+    latitude: '35.846'  # 위도
+    longitude: '127.134'  # 경도      
+
 design:
   columns: '1'
-
-<div id="map" style="height: 400px; width: 100%;"></div>
-
-<script>
-  // OpenStreetMap을 기반으로 지도 생성
-  var map = L.map('map').setView([{{ .Params.map.coordinates.latitude }}, {{ .Params.map.coordinates.longitude }}], {{ .Params.map.zoom }});
-
-  // 타일 레이어 추가 (OpenStreetMap 타일 서버 사용)
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-  }).addTo(map);
-</script>
-
 ---
 
+{{< map >}}
