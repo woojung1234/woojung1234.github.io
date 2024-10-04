@@ -25,7 +25,7 @@ marketing:
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''  # Google Search Console에 등록 후 얻은 verification code 추가
+    google: 'google-site-verification: google70676e605f74dbb2.html'  # Google Search Console에 등록 후 얻은 verification code 추가
     baidu: ''
 
 
