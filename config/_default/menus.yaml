@@ -7,13 +7,13 @@ main:
   - name: Home
     url: /
     weight: 10
-    identifier: "Home"
+    
   - name: next
-    url: about/
+    url: /
     weight: 10
     parent:  "Home"
   - name: over
-    url: about/
+    url: /
     weight: 10
     parent:  "Home"
   - name: introduce
@@ -28,3 +28,4 @@ main:
   - name: Dream
     url: project/
     weight: 10
+    identifier: "Home"
