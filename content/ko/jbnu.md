@@ -5,5 +5,5 @@ type: page
 headless: false
 weight: 10
 author: admin
-link: 'https://www.jbnu.ac.kr/kor/'
+url: 'https://www.jbnu.ac.kr/kor/'
 ---
