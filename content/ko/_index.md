@@ -6,10 +6,7 @@ type: landing
 
 sections:
 
-  - block: avatar
-    content:
-      author: "김우중"
-      image: "avatar.jpg"
+  - widget: about.avatar
   # 소개 섹션
   - block: features
     content:
