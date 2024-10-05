@@ -6,6 +6,14 @@ type: landing
 
 sections:
 
+  - block: avatar
+    content:
+      author: 김우중
+      image: 
+        filename: avatar.jpg  # 아바타 이미지 파일명
+    design:
+      # 디자인 관련 설정을 추가할 수 있습니다.
+      align: center  # 중앙 정렬
   # 소개 섹션
   - block: features
     content:
