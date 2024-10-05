@@ -32,6 +32,7 @@ marketing:
 # Site header
 
 header:
+  logo: "assets/media/logo.png"
   navbar:
     enable: true
     align: c
