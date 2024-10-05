@@ -126,9 +126,9 @@ sections:
       order: desc
       filters:
         files:
-          - 
-          - web
-          - youtube
+          - highschool
+          - millitary
+          - jbnu
     design:
       columns: '2' 
      
