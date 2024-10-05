@@ -1,5 +1,5 @@
 ---
-title: "1.young & rich"
+title: "2.young & rich"
 date: 2024-10-05
 type: page
 headless: false

@@ -121,7 +121,7 @@ sections:
       title: dreams
       subtitle:
       text:
-      count: 3
+      count: 6
       offset: 0
       order: desc
       filters:
