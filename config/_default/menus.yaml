@@ -19,7 +19,7 @@ main:
     parent: "intro"
 
   - name: authors
-    url: authors/admin/
+    url: authors/
     weight: 10
     parent:  "intro"
  
