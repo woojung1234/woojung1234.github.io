@@ -5,5 +5,5 @@ type: page
 headless: false
 weight: 10
 author: 김우중
-image: "/assets/images/image4.jpg"
+image: "/assets/media/image4.jpg"
 ---
