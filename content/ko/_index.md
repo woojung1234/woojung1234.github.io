@@ -94,14 +94,27 @@ sections:
         - name: 유튜브
           icon: youtube
           icon_pack: fab
-          description:  <span style="font-size:90%">최신 트렌드 파</span><br><br>
-        - name: 넷플릭스
-          icon: netflix
-          icon_pack: fab
-        
+          description:  <span style="font-size:90%">최신 트렌드 파악</span><br><br>
+
         - name: 애플 (Solution)
           icon: app-store-ios
           icon_pack: fab
           description:  <span style="font-size:90%">애플 주식 경향 트렌드 알아보기</span><br><br>
+  - block: collection
+    content:
+      id: section-1
+      title: dreams
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        files:
+          - rich
+          - web
+          - youtube
+    design:
+      columns: '2' 
 
 ---
