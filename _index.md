@@ -12,7 +12,7 @@ sections:
       title: <span style="font-size:70%">김우중의 포트폴리오</span>
       text: <br><span style="font-size:125%">전북대학교 통계학과 3학년이며 컴퓨터 공학을 복수 전공하고 있습니다.</span> <br><br>
     design:
-      columns: '1'
+      columns: '3'
     
 
   # 슬라이더 섹션
@@ -71,7 +71,7 @@ sections:
         - name: 세번째
           tag: AL
     design:
-      columns: '1'
+      columns: '3'
       view: masonry
       flip_alt_rows: true
       spacing: {padding: [0, 0, 0, 0]}
