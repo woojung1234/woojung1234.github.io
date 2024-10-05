@@ -20,34 +20,34 @@ sections:
   - block: slider
     content:
       slides:
-      - title: <span style="font-size:70%">데이터 시각화</span>
-        content: <span style="font-size:70%">Jupyter Notebook과 파이썬 활용</span>
+      - title: <span style="font-size:80%">데이터 시각화</span>
+        content: <span style="font-size:80%">Jupyter Notebook과 파이썬 활용</span>
         align: center
         background:
           image:
             filename: image1.jpg
             filters:
-              brightness: 0.5
+              brightness: 0.6
           position: center
           color: '#333'
-      - title: <span style="font-size:70%">캐글 활동</span>
-        content: <span style="font-size:70%">캐글을 활용한 인공지능 활용</span>
+      - title: <span style="font-size:80%">캐글 활동</span>
+        content: <span style="font-size:80%">캐글을 활용한 인공지능 활용</span>
         align: center
         background:
           image:
             filename: image2.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.6
           position: right
           color: '#666'
-      - title: <span style="font-size:70%">타이타닉</span>
-        content: <span style="font-size:70%">캐글 중 타이타닉 데이터를 이용한 데이터 분석</span>
+      - title: <span style="font-size:80%">타이타닉</span>
+        content: <span style="font-size:80%">캐글 중 타이타닉 데이터를 이용한 데이터 분석</span>
         align: center
         background:
           image:
             filename: image3.jpg
             filters:
-              brightness: 0.7
+              brightness: 0.6
           position: center
           color: '#555'
     design:
