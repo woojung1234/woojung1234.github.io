@@ -115,6 +115,21 @@ sections:
           - web
           - youtube
     design:
+      columns: '2'
+  - block: collection
+    content:
+      title: dreams
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        files:
+          - 
+          - web
+          - youtube
+    design:
       columns: '2' 
      
 ---
