@@ -116,21 +116,5 @@ sections:
           - youtube
     design:
       columns: '2' 
-  - block: collection
-    content:
-      title: 경험
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        files:
-          - high
-          - millitary
-          - jbnu
-    design:
-      columns: '2'
-
      
 ---
