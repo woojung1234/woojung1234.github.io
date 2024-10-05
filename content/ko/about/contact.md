@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 50
 
-title: 마음의 편지
+title: 위치
 subtitle:
 
 content:
@@ -24,6 +24,14 @@ content:
     netlify:
       # Enable CAPTCHA challenge to reduce spam?
       captcha: false
+
+map:
+    provider: 'mapnik'
+    api_key: ''
+    zoom: 15
+    coordinates:
+      latitude: '35.846'  # 위도
+      longitude: '127.134'  # 경도
 
 design:
   columns: '1'
