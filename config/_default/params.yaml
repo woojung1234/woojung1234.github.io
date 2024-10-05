@@ -98,9 +98,7 @@ features:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
-    coordinates:
-      latitude: '35.846'  # 위도
-      longitude: '127.134'  # 경도
+  
 
 
 extensions:
