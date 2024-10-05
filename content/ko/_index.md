@@ -127,9 +127,9 @@ sections:
       order: desc
       filters:
         files:
-          - accomplishments
-          - education
-          - experience
+          - high
+          - millitary
+          - jbnu
     design:
       columns: '2'
 
