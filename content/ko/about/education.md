@@ -37,8 +37,6 @@ experience:
     date_start: '2019-01-01'
     date_end: ''
     description: 가장 좋아하는 가수
-    image: 
-      filename: image4.jpg
   
   - title: 온라인 게임
     company: League Of Legends
