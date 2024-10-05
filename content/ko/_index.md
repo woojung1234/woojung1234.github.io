@@ -118,7 +118,6 @@ sections:
       columns: '2' 
   - block: collection
     content:
-      id: section-2
       title: 경험
       subtitle:
       text:
