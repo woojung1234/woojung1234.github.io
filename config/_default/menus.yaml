@@ -9,12 +9,17 @@ main:
     weight: 10
  
   - name: introduce
-    url: about/
+    url: /
     weight: 15
     identifier: "intro"
+  
+  - name: introduce
+    url: about/
+    weight: 15
+    parent: "intro"
 
   - name: authors
-    url: authors/
+    url: authors/admin/
     weight: 10
     parent:  "intro"
  
