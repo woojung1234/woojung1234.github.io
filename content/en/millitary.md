@@ -1,5 +1,5 @@
 ---
-title: "군대"
+title: "The army"
 date: 2024-10-05
 type: page
 headless: false

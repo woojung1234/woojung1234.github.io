@@ -1,5 +1,5 @@
 ---
-title: "전북대학교"
+title: "JBNU"
 date: 2024-10-05
 type: page
 headless: false

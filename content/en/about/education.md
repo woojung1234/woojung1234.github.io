@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: 취미생활
+title: hobbies
 subtitle:
 
 # Date format for experience
@@ -22,28 +22,28 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: 풋살
+  - title: footbalㅣ
     company: 2주에 1회
     company_url: ''
     date_start: '2023-06-05'
     date_end: ''
     description: |2-
-        * 주로 공격수
-        * 잘은 못함..
+        * the main striker
+        * I'm not good at it....
 
-  - title: 노래 듣기
+  - title: Listening to music
     company: MC the Max
     company_url: ''
     date_start: '2019-01-01'
     date_end: ''
-    description: 가장 좋아하는 가수
+    description: He is my favorite singer.
   
-  - title: 온라인 게임
+  - title: Online game
     company: League Of Legends
     company_url: ''
     date_start: '2013-01-01'
     date_end: ''
-    description: 자연대 리그 1위
+    description: No. 1 in the Nature League
 
 design:
   columns: '1'

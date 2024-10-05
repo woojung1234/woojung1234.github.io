@@ -1,5 +1,5 @@
 ---
-title: "1.웹 개발자"
+title: "1.Web developer"
 date: 2024-10-05
 type: page
 headless: false

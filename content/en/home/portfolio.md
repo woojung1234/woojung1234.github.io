@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: '프로젝트'
-subtitle: '학교 수업 중 진행한 것입니다.'
+title: 'Projects'
+subtitle: 'It was done during the school class.'
 
 content:
   # Page type to display. E.g. project.
@@ -26,13 +26,13 @@ content:
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
   filter_button:
-    - name: 전체
+    - name: ALL
       tag: '*'
-    - name: 첫번째
+    - name: 1st
       tag: ML
-    - name: 두번째
+    - name: 2nd
       tag: RA
-    - name: 세번째
+    - name: 3rd
       tag: AL
 
 design:

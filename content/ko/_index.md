@@ -83,7 +83,7 @@ sections:
       title: <span style="font-size:75%">관심분야</span>
       text: 저는 이런 것들에 관심이 있습니다.<br><br><br><br>
       items:
-        - name: 웹 개발 (Web-Development)
+        - name: 웹 개발
           icon: laptop
           icon_pack: fas
         
@@ -96,14 +96,14 @@ sections:
           icon_pack: fab
           description:  <span style="font-size:90%">최신 트렌드 파악</span><br><br>
 
-        - name: 애플 (Solution)
+        - name: 애플 
           icon: app-store-ios
           icon_pack: fab
           description:  <span style="font-size:90%">애플 주식 경향 트렌드 알아보기</span><br><br>
   - block: collection
     content:
       id: section-1
-      title: dreams
+      title: Dreams
       subtitle:
       text:
       count: 3

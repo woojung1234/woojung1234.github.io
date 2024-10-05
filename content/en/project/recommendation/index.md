@@ -1,6 +1,6 @@
 ---
 title: 3rd
-summary: 타이타닉의 생존자 예측하기
+summary: Predicting Titanic Survivors
 tags:
   - AL
 date: 2022-01-01

@@ -10,8 +10,9 @@ sections:
   # 소개 섹션
   - block: features
     content:
-      title: <span style="font-size:70%">자기소개 요약본</span>
-      text: <br><span style="font-size:125%">전북대학교 통계학과 3학년이며 컴퓨터 공학을 복수 전공하고 있습니다.</span> <br><br>
+      title: <span style="font-size:70%">A self-introduction summary</span>
+      text: <br><span style="font-size:125%">I am a junior majoring in statistics at Chonbuk National University and have a double major in computer engineering.
+    </span> <br><br>
     design:
       columns: '3'
     
@@ -20,8 +21,9 @@ sections:
   - block: slider
     content:
       slides:
-      - title: <span style="font-size:80%">데이터 시각화</span>
-        content: <span style="font-size:80%">Jupyter Notebook과 파이썬 활용</span>
+      - title: <span style="font-size:80%">Visualize data</span>
+        content: <span style="font-size:80%">Utilize Jupiter Notebook and Python
+        </span>
         align: center
         background:
           image:
@@ -30,8 +32,9 @@ sections:
               brightness: 0.6
           position: center
           color: '#333'
-      - title: <span style="font-size:80%">캐글 활동</span>
-        content: <span style="font-size:80%">캐글을 활용한 인공지능 활용</span>
+      - title: <span style="font-size:80%">Kaggle activity</span>
+        content: <span style="font-size:80%">Artificial Intelligence with Kaggle
+        </span>
         align: center
         background:
           image:
@@ -40,8 +43,8 @@ sections:
               brightness: 0.6
           position: right
           color: '#666'
-      - title: <span style="font-size:80%">타이타닉</span>
-        content: <span style="font-size:80%">캐글 중 타이타닉 데이터를 이용한 데이터 분석</span>
+      - title: <span style="font-size:80%">Titanic</span>
+        content: <span style="font-size:80%">Analysis of data using Titanic data during the Kaggle</span>
         align: center
         background:
           image:
@@ -59,17 +62,17 @@ sections:
   # 포트폴리오 섹션
   - block: portfolio
     content:
-      title: '프로젝트'
-      subtitle: '학교 수업 중 진행한 것입니다.'
+      title: 'Projects'
+      subtitle: 'It was done during the school class.'
       page_type: project
       filter_button:
-        - name: 전체
+        - name: ALL
           tag: '*'
-        - name: 첫번째
+        - name: 1st
           tag: ML
-        - name: 두번째
+        - name: 2nd
           tag: RA
-        - name: 세번째
+        - name: 3rd
           tag: AL
     design:
       columns: '3'
@@ -80,30 +83,30 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">관심분야</span>
-      text: 저는 이런 것들에 관심이 있습니다.<br><br><br><br>
+      title: <span style="font-size:75%">Interest</span>
+      text: I'm interested in these things.<br><br><br><br>
       items:
-        - name: 웹 개발 (Web-Development)
+        - name: Web-Development
           icon: laptop
           icon_pack: fas
         
-        - name: 게임 통계
+        - name: Game statistics
           icon: gamepad
           icon_pack: fas
-          description:  <span style="font-size:90%">league of legends 경기 데이터를 통한 분석</span><br><br>
-        - name: 유튜브
+          description:  <span style="font-size:90%">Analysis from league of legends match data</span><br><br>
+        - name: Youtube
           icon: youtube
           icon_pack: fab
-          description:  <span style="font-size:90%">최신 트렌드 파악</span><br><br>
+          description:  <span style="font-size:90%">Identify the latest trends</span><br><br>
 
-        - name: 애플 (Solution)
+        - name: APPLE
           icon: app-store-ios
           icon_pack: fab
-          description:  <span style="font-size:90%">애플 주식 경향 트렌드 알아보기</span><br><br>
+          description:  <span style="font-size:90%">Find out Apple Stock Trends</span><br><br>
   - block: collection
     content:
       id: section-1
-      title: dreams
+      title: Dreams
       subtitle:
       text:
       count: 3
@@ -118,7 +121,7 @@ sections:
       columns: '2'
   - block: collection
     content:
-      title: 경험들
+      title: Experiences
       subtitle:
       text:
       count: 4

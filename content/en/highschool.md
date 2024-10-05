@@ -1,5 +1,5 @@
 ---
-title: "전라고등학교"
+title: "Jeolla High School"
 date: 2024-10-05
 type: page
 headless: false

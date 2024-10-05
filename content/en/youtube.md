@@ -1,5 +1,5 @@
 ---
-title: "3.유튜버"
+title: "3.Youtube"
 date: 2024-10-05
 type: page
 headless: false

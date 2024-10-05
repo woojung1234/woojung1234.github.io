@@ -10,8 +10,8 @@ headless: true
 weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-title: '수강 전공 과목'
-subtitle: 통계학과
+title: 'coursework'
+subtitle: the Department of Statistics
 
 # Date format
 #   Refer to https://docs.hugoblox.com/customization/#date-format
@@ -27,23 +27,23 @@ item:
     date_end: '2023-12-20'
     date_start: '2023-09-01'
     description: ''
-    organization: '통계학과'
+    organization: 'the Department of Statistics'
     organization_url: 
-    title: '수리통계학2'
+    title: 'mathematical statistics2'
     url: ''
   - certificate_url: 
     date_end: '2024-06-20'
     date_start: '2023-09-01'
-    organization: '통계학과'
+    organization: 'the Department of Statistics'
     organization_url: 
-    title: '회귀분석1,2'
+    title: 'Regression Analysis1,2'
   - certificate_url: ''
     date_end: '2023-12-20'
     date_start: '2023-09-01'
     description: ''
-    organization: '통계학과'
+    organization: 'the Department of Statistics'
     organization_url: ''
-    title: '데이터 시각화'
+    title: 'Visualize data'
     url: ''
 
 design:

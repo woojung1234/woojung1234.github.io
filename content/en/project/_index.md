@@ -9,12 +9,12 @@ sections:
   - block: features
     content:
       title: project
-      text: 학교 수업 중 진행한 프로젝트입니다.
+      text: It's a project I did during my school class.
   - block: slider
     content:
       slides:
-      - title: 데이터 시각화
-        content: 'jupyter notebook과 파이썬 활용'
+      - title: Visualize data
+        content: 'Use jupyter notebook and python'
         align: center
         background:
           image:
@@ -23,8 +23,8 @@ sections:
               brightness: 0.5
           position: center
           color: '#333'
-      - title: 캐글 활동
-        content: 캐글을 활용한 인공지능 활용
+      - title: kaggle activity
+        content: Artificial Intelligence with kaggle
         align: center
         background:
           image:
@@ -33,8 +33,8 @@ sections:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: 타이타닉
-        content: '캐글 중 타이타닉 데이터를 이용한 데이터 분석'
+      - title: Titanic
+        content: 'Analysis of data using Titanic data during the kaggle'
         align: center
         background:
           image:

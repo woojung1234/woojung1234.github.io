@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: 경력
+title: Career
 subtitle:
 
 # Date format for experience
@@ -22,29 +22,29 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: 전라고등학교 졸업
-    company: 전라고등학교
+  - title: Graduation of Jeolla High School
+    company: Jeolla High School
     company_url: 'https://school.jbedu.kr/jeolla-h/#:~:text=%EC%A0%84%EB%9D%BC%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%ED%99%88%ED%8E%98%EC%9D%B4'
-    location: 전북 전주시
+    location: Jeonju City, North Jeolla Province
     date_start: '2017-03-01'
     date_end: '2020-02-10'
-    description: 3학년 개근
+    description: a third-year attendance
   
-  - title: 대한민국 육군 전역
-    company: 강한 육군
+  - title: South Korean Army discharge
+    company: a strong army
     company_url: ''
-    location: 경기도 안양시
+    location: Anyang City, Gyeonggi Province
     date_start: '2021-12-13'
     date_end: '2023-06-05'
-    description: 육군 병장 만기 전역
+    description: Army Sergeant Maturity discharged from the army
 
-  - title: 전북대학교 재학중
-    company: 전북대학교
+  - title: Currently attending Jeonbuk National University
+    company: Jeonbuk National University
     company_url: 'https://www.jbnu.ac.kr/kor/'
-    location: 전북 전주시
+    location: Jeonju City, North Jeolla Province
     date_start: '2020-03-01'
     date_end: ''
-    description: 통계학과 3학년 재학중이며 컴퓨터공학 복수전공 중
+    description: I am a third year student in the Department of Statistics and have a double major in computer engineering
 
 design:
   columns: '1'
