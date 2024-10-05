@@ -10,7 +10,7 @@ sections:
   # 소개 섹션
   - block: features
     content:
-      title: <span style="font-size:70%">김우중의 포트폴리오</span>
+      title: <span style="font-size:70%">자기소개 요약본</span>
       text: <br><span style="font-size:125%">전북대학교 통계학과 3학년이며 컴퓨터 공학을 복수 전공하고 있습니다.</span> <br><br>
     design:
       columns: '3'
@@ -117,4 +117,36 @@ sections:
     design:
       columns: '2' 
 
+  - block: accomplishments
+    content:
+      title: '수강 전공 과목'
+      subtitle: 통계학과
+      date_format: Jan 2006
+      
+      item:
+        - certificate_url: ''
+          date_end: '2023-12-20'
+          date_start: '2023-09-01'
+          description: ''
+          organization: '통계학과'
+          organization_url: 
+          title: '수리통계학2'
+          url: ''
+        - certificate_url: 
+          date_end: '2024-06-20'
+          date_start: '2023-09-01'
+          organization: '통계학과'
+          organization_url: 
+          title: '회귀분석1,2'
+        - certificate_url: ''
+          date_end: '2023-12-20'
+          date_start: '2023-09-01'
+          description: ''
+          organization: '통계학과'
+          organization_url: ''
+          title: '데이터 시각화'
+          url: ''
+
+    design:
+      columns: '1'    
 ---
