@@ -6,7 +6,9 @@ type: landing
 
 sections:
 
-  
+  - block: about.avatar
+    design:
+      columns: '1'
   # 소개 섹션
   - block: features
     content:
