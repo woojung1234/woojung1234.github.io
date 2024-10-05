@@ -148,5 +148,5 @@ sections:
           url: ''
 
     design:
-      columns: '1'    
+      columns: '3'    
 ---
