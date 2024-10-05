@@ -76,4 +76,32 @@ sections:
       view: masonry
       flip_alt_rows: true
       spacing: {padding: [0, 0, 0, 0]}
+
+  - block: features
+    id: features
+    content:
+      title: <span style="font-size:75%">관심분야</span>
+      text: 저는 이런 것들에 관심이 있습니다.<br><br><br><br>
+      items:
+        - name: 웹 개발 (Web-Development)
+          icon: laptop
+          icon_pack: fas
+        
+        - name: 게임 통계
+          icon: gamepad
+          icon_pack: fas
+          description:  <span style="font-size:90%">league of legends 경기 데이터를 통한 분석</span><br><br>
+        - name: 유튜브
+          icon: youtube
+          icon_pack: fab
+          description:  <span style="font-size:90%">최신 트렌드 파</span><br><br>
+        - name: 넷플릭스
+          icon: netflix
+          icon_pack: fab
+        
+        - name: 애플 (Solution)
+          icon: app-store-ios
+          icon_pack: fab
+          description:  <span style="font-size:90%">애플 주식 경향 트렌드 알아보기</span><br><br>
+
 ---
