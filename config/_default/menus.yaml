@@ -12,7 +12,7 @@ main:
     weight: 30
     identifier: "Dream"
   - name: web developer
-    url: /
+    url: web/
     weight: 10
     parent:  "Dream"
   - name: young & rich
