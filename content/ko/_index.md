@@ -118,11 +118,11 @@ sections:
       columns: '2'
   - block: collection
     content:
-      title: dreams
+      title: 경험들
       subtitle:
       text:
-      count: 6
-      offset: 4
+      count: 4
+      offset: 3
       order: desc
       filters:
         files:
