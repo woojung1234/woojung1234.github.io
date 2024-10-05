@@ -122,7 +122,7 @@ sections:
       subtitle:
       text:
       count: 6
-      offset: 0
+      offset: 4
       order: desc
       filters:
         files:
