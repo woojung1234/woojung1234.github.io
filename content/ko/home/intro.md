@@ -9,15 +9,15 @@ headless: true
 weight: 10
 
 author: admin
-design:
-  background:
-    color: ''
-    text_color_light: true
-    slideshow:
-      images:
-        - /assets/media/image1.jpg
-        - /assets/media/image2.jpg
-  css_class: slideshow
+#design:
+  #background:
+    #color: '#090a0b'
+    #text_color_light: true
+    #slideshow:
+      #images:
+      #  - /assets/media/slide1.jpg
+      #  - /assets/media/slide2.jpg
+  #css_class: slideshow
 ---
 
 
