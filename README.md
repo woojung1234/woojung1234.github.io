@@ -1,4 +1,4 @@
-# [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
+# [woojung1234's blog]](https://woojung1234.github.io/ko/)
 
 [![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
 
