@@ -31,6 +31,6 @@ main:
     parent:  "Dream"
  
   - name: young & rich
-    url: /
+    url: /ko/rich/
     weight: 15
     parent:  "Dream"
