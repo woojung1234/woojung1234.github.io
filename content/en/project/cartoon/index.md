@@ -1,6 +1,6 @@
 ---
-title: 1st project
-summary: Data Visualization
+title: 1st
+summary: 데이터 시각화
 tags:
   - ML
 date: 2022-01-01

@@ -6,7 +6,7 @@ title: 김우중
 superuser: true
 
 # Role/position
-role: '전북대 3학년 재학중'
+role: '전북대 통계학과 3학년, 컴퓨터공학 복수전공'
 # Status emoji
 status:
   icon: ☕️
@@ -66,4 +66,4 @@ social:
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} pdf파일입니다. 최근에 발표했던 자료 넣었습니다.
 
-
+[project](https://woojung1234.github.io/ko/project/) 프로젝트는 이쪽에! 😍

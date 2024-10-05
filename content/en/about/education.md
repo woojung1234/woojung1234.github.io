@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Education
+title: 취미생활
 subtitle:
 
 # Date format for experience
@@ -22,26 +22,28 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: MEng Electronic Engineering
-    company: University X
+  - title: 풋살
+    company: 2주에 1회
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2021-01-01'
-    date_end: '2022-01-01'
+    date_start: '2023-06-05'
+    date_end: ''
     description: |2-
-        * Dissertation on Y
-        * Basketball team
-        * DJ club
+        * 주로 공격수
+        * 잘은 못함..
 
-  - title: BEng Electronic Engineering
-    company: University X
+  - title: 노래 듣기
+    company: MC the Max
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: My dissertation was on X
+    date_start: '2019-01-01'
+    date_end: ''
+    description: 가장 좋아하는 가수
+  
+  - title: 온라인 게임
+    company: League Of Legends
+    company_url: ''
+    date_start: '2013-01-01'
+    date_end: ''
+    description: 자연대 리그 1위
 
 design:
   columns: '1'
