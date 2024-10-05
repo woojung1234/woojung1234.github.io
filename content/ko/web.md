@@ -4,7 +4,7 @@ date: 2024-10-05
 type: page
 headless: false
 weight: 10
-author: 김우중
+author: admin
 image: 
   filename: image4.jpg
 ---
