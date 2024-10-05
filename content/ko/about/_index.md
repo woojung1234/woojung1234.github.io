@@ -3,6 +3,7 @@
 title:
 date: 2024-03-25
 type: landing
+widget: 80
 
 sections:
 
