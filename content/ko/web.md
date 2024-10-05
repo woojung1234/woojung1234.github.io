@@ -1,21 +1,8 @@
 ---
-# Use the Intro widget of the Blog template
-widget: about.avatar
-
-# This file represents a page section.
-headless: true
-
-# Order that this section will appear in.
+title: "새로운 페이지"
+date: 2024-10-05
+type: page
+headless: false
 weight: 10
-
-author: admin
-#design:
-  #background:
-    #color: '#090a0b'
-    #text_color_light: true
-    #slideshow:
-      #images:
-      #  - /assets/media/slide1.jpg
-      #  - /assets/media/slide2.jpg
-  #css_class: slideshow
+author: 김우중
 ---
