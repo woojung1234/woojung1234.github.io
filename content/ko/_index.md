@@ -116,37 +116,30 @@ sections:
           - youtube
     design:
       columns: '2' 
-
-  - block: accomplishments
+  - block: collection
     content:
-      title: '수강 전공 과목'
-      subtitle: 통계학과
-      date_format: Jan 2006
-      
-      item:
-        - certificate_url: ''
-          date_end: '2023-12-20'
-          date_start: '2023-09-01'
-          description: ''
-          organization: '통계학과'
-          organization_url: 
-          title: '수리통계학2'
-          url: ''
-        - certificate_url: 
-          date_end: '2024-06-20'
-          date_start: '2023-09-01'
-          organization: '통계학과'
-          organization_url: 
-          title: '회귀분석1,2'
-        - certificate_url: ''
-          date_end: '2023-12-20'
-          date_start: '2023-09-01'
-          description: ''
-          organization: '통계학과'
-          organization_url: ''
-          title: '데이터 시각화'
-          url: ''
+    title: 경력
+    subtitle: 경력 및 학습 경험
+    items:
+      - title: 전라고등학교 졸업
+        subtitle: 전북 전주시
+        date: '2017-03-01 - 2020-02-10'
+        description: 3학년 개근
+        url: 'https://school.jbedu.kr/jeolla-h/#:~:text=%EC%A0%84%EB%9D%BC%EA%B3%A0%EB%93%B1%ED%95%99%EA%B5%90%20%ED%99%88%ED%8E%98%EC%9D%B4'
+
+      - title: 대한민국 육군 전역
+        subtitle: 경기도 안양시
+        date: '2021-12-13 - 2023-06-05'
+        description: 육군 병장 만기 전역
+
+      - title: 전북대학교 재학중
+        subtitle: 전북 전주시
+        date: '2020-03-01 - 현재'
+        description: 통계학과 3학년 재학중이며 컴퓨터공학 복수전공 중
+        url: 'https://www.jbnu.ac.kr/kor/'
 
     design:
-      columns: '3'    
+      columns: '1'
+
+     
 ---
