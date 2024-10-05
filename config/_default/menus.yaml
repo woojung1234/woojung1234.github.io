@@ -34,3 +34,8 @@ main:
     url: /ko/rich/
     weight: 15
     parent:  "Dream"
+
+  - name: youtube
+    url: /ko/youtube/
+    weight: 20
+    parent:  "Dream"
