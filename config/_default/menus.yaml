@@ -7,24 +7,30 @@ main:
   - name: Home
     url: /
     weight: 10
+ 
+  - name: introduce
+    url: about/
+    weight: 15
+ 
+  - name: University
+    url: https://stat.jbnu.ac.kr/stat/index.do#:~:text=%EC%B0%BE%EC%95%84%EC%98%A4%EC%8B%9C%EB%8A%94%EA%B8%B8.
+    weight: 20
+ 
+  - name: project
+    url: project/
+    weight: 25
+
   - name: Dream
     url: /
     weight: 30
     identifier: "Dream"
-  - name: web developer
-    url: web/
+  
+  - name: web
+    url: web
     weight: 10
     parent:  "Dream"
+ 
   - name: young & rich
     url: /
     weight: 15
     parent:  "Dream"
-  - name: introduce
-    url: about/
-    weight: 15
-  - name: University
-    url: https://stat.jbnu.ac.kr/stat/index.do#:~:text=%EC%B0%BE%EC%95%84%EC%98%A4%EC%8B%9C%EB%8A%94%EA%B8%B8.
-    weight: 20
-  - name: project
-    url: project/
-    weight: 25
