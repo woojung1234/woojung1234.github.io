@@ -12,19 +12,6 @@ weight: 50
 title: 위치
 subtitle:
 
-content:
-  # Automatically link email and phone or display as text?
-  autolink: true
-
-  # Email form provider
-  form:
-    provider: netlify
-    formspree:
-      id:
-    netlify:
-      # Enable CAPTCHA challenge to reduce spam?
-      captcha: false
-
 map:
     provider: 'mapnik'
     api_key: ''
