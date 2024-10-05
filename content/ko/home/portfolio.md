@@ -15,7 +15,7 @@ subtitle: '학교 수업 중 진행한 것입니다.'
 
 content:
   # Page type to display. E.g. project.
-  page_type: project
+  page_type: project/_index.md
 
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   filter_default: 0
