@@ -100,21 +100,22 @@ sections:
           icon: app-store-ios
           icon_pack: fab
           description:  <span style="font-size:90%">애플 주식 경향 트렌드 알아보기</span><br><br>
+  
   - block: collection
     content:
       id: section-1
-      title: dreams
+      title: 희망사항
       subtitle:
       text:
       count: 3
       offset: 0
       order: desc
       filters:
-        files:
-          - rich
+        folders:
           - web
+          - rich
           - youtube
     design:
-      columns: '2' 
+      columns: '2'
      
 ---
