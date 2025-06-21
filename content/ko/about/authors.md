@@ -33,9 +33,37 @@ social:
 
 ---
 
+<style>
+/* 이름 색상 강제 적용 - 다크모드에서 하얀색, 라이트모드에서 어두운색 */
+.user-name, .author-name, h1.author-name {
+  color: white !important;
+}
+
+/* 다크모드 전용 */
+@media (prefers-color-scheme: dark) {
+  .user-name, .author-name, h1.author-name {
+    color: white !important;
+  }
+}
+
+/* 라이트모드 전용 */
+@media (prefers-color-scheme: light) {
+  .user-name, .author-name, h1.author-name {
+    color: #1f2937 !important;
+  }
+}
+
+/* Hugo 테마의 기본 스타일 덮어쓰기 */
+.avatar-wrapper + h1,
+.superuser h1,
+div[itemtype="https://schema.org/Person"] h1 {
+  color: white !important;
+}
+</style>
+
 <div style="color: var(--bs-body-color, #374151); line-height: 1.6;">
 
-<h1 style="color: var(--bs-body-color, white); font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">김우중</h1>
+<h1 class="author-name" style="color: white !important; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; text-shadow: 0 0 10px rgba(255,255,255,0.3);">김우중</h1>
 
 **전북대학교 통계학과 4학년**이며 **컴퓨터공학을 복수전공**하고 있는 김우중입니다.
 
@@ -66,3 +94,35 @@ social:
 🚀 프로젝트 포트폴리오 보기
 </a>
 </div>
+
+<script>
+// JavaScript로 이름 색상 강제 변경
+document.addEventListener('DOMContentLoaded', function() {
+  // 모든 가능한 이름 요소 찾기
+  const nameSelectors = [
+    'h1.author-name',
+    '.avatar-wrapper + h1',
+    '.superuser h1', 
+    'div[itemtype="https://schema.org/Person"] h1',
+    '.about-author h1',
+    '.author-header h1'
+  ];
+  
+  nameSelectors.forEach(selector => {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(el => {
+      el.style.color = 'white';
+      el.style.setProperty('color', 'white', 'important');
+    });
+  });
+  
+  // 혹시 다른 방법으로 생성된 이름 요소도 찾기
+  const allH1s = document.querySelectorAll('h1');
+  allH1s.forEach(h1 => {
+    if (h1.textContent.includes('김우중')) {
+      h1.style.color = 'white';
+      h1.style.setProperty('color', 'white', 'important');
+    }
+  });
+});
+</script>
