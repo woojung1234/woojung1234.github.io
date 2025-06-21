@@ -1,6 +1,6 @@
 ---
-# Display name - 다크모드에서 하얀색으로 표시
-title: <span style="color: var(--bs-body-color, white);">김우중</span>
+# Display name - YAML 호환 형식으로 수정
+title: 김우중
 
 # Is this the primary user of the site?
 superuser: true
@@ -34,6 +34,8 @@ social:
 ---
 
 <div style="color: var(--bs-body-color, #374151); line-height: 1.6;">
+
+<h1 style="color: var(--bs-body-color, white); font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">김우중</h1>
 
 **전북대학교 통계학과 4학년**이며 **컴퓨터공학을 복수전공**하고 있는 김우중입니다.
 
