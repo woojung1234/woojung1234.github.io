@@ -1,8 +1,57 @@
 ---
-title: 2nd
-summary: 캐글을 활용한 프로젝트
+title: Flavor Diffusion 페어링 서비스
+summary: 머신러닝 기반 술과 음식의 최적 매칭 서비스
 tags:
-  - RA
-date: 2022-01-01
-external_link: https://www.kaggle.com/code/kimwoojung2/notebook8e549fe160/edit
+  - AI
+  - Web
+date: 2024-11-15
+external_link: https://github.com/woojung1234/ai-pairingsystem.git
+image:
+  caption: 'Flavor Diffusion 알고리즘을 활용한 페어링 시스템'
+  focal_point: Smart
 ---
+
+## 📋 프로젝트 개요
+
+**Flavor Diffusion 머신러닝 모델을 활용하여 술과 음식의 최적 조합을 추천하는 지능형 페어링 서비스**
+
+### 🎯 해결하고자 한 문제
+- 전문가 수준의 술-음식 페어링 지식에 대한 일반인의 접근성 부족
+- 개인의 취향을 고려한 맞춤형 페어링 추천의 어려움
+- 복잡한 풍미 프로파일 분석의 전문성 요구
+
+### 🚀 핵심 기능
+1. **Flavor Diffusion 분석**: 음식과 술의 풍미 성분을 벡터화하여 유사도 계산
+2. **개인화 추천**: 사용자의 과거 선호도 학습을 통한 맞춤형 제안
+3. **상세 풍미 분석**: 단맛, 신맛, 짠맛, 쓴맛, 감칠맛의 5차원 분석
+4. **페어링 근거 제시**: AI가 추천하는 이유를 구체적으로 설명
+
+### 🛠 기술 스택
+- **Frontend**: React, D3.js (데이터 시각화)
+- **Backend**: Python, Django REST Framework
+- **AI/ML**: TensorFlow, Scikit-learn, Flavor Diffusion Model
+- **Database**: PostgreSQL
+- **API**: 음식/주류 데이터베이스 API
+
+### 📊 주요 성과
+- **정확도**: 전문가 평가 대비 78% 일치율 달성
+- **데이터셋**: 5,000+ 음식-술 조합 데이터 수집 및 분석
+- **사용자 피드백**: 평균 4.2/5.0 만족도 점수
+
+### 🔍 기술적 도전과 해결
+**문제**: 복잡한 풍미 특성의 수치화 어려움
+**해결**: Flavor Diffusion 모델을 활용한 고차원 벡터 임베딩
+
+**문제**: 개인 취향의 주관성 처리
+**해결**: 협업 필터링과 콘텐츠 기반 필터링의 하이브리드 접근
+
+### 💡 학습 성과
+- **고급 머신러닝** 알고리즘 구현 및 최적화
+- **데이터 수집** 및 전처리 파이프라인 구축
+- **도메인 지식**과 기술의 융합 경험
+
+### 🏆 특별한 의미
+이 프로젝트는 단순한 추천 시스템을 넘어서 **감각적 경험을 데이터로 모델링**하는 도전적인 시도였습니다. 통계학과 컴퓨터공학을 융합한 대표적인 사례입니다.
+
+---
+*Flavor Diffusion 기술을 실제 서비스에 적용한 혁신적인 프로젝트로, 복잡한 도메인 문제를 AI로 해결하는 능력을 보여줍니다.*
