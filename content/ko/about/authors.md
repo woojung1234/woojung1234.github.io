@@ -1,59 +1,37 @@
 ---
-# Display name
-title: 김우중
+# Display name - 다크모드에서 이름이 하얀색으로 표시되도록 수정
+title: <span style="color: var(--bs-body-color, white);">김우중</span>
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: '전북대 통계학과 3학년, 컴퓨터공학 복수전공'
-# Status emoji
-status:
-  icon: ☕️
+# Role/position - 4학년으로 수정
+role: '전북대학교 통계학과 4학년, 컴퓨터공학 복수전공'
 
-# Organizations/Affiliations
-#organizations:
-#- name: 腾讯
-#  url: ""
+# Status emoji - 개발자에 맞는 이모지로 변경
+status:
+  icon: 💻
 
 # Short bio (displayed in user profile at end of posts)
-bio: 전북대 통계학과 3학년, 컴퓨터 공학 복수전공 중.
+bio: AI와 데이터를 활용한 실생활 문제 해결에 특화된 개발자
 
+# 관심사 업데이트 - 전문적으로 변경
 interests:
-- 웹서비스
-- 통계학
-- 축구
-
-#education:
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stanford University
-#    year: 2012
-#  - course: MEng in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2009
-#  - course: BSc in Artificial Intelligence
-#    institution: Massachusetts Institute of Technology
-#    year: 2008
+- 생성형 AI 활용
+- 웹 개발 (React, Node.js)
+- 데이터 분석 및 시각화
+- 모바일 앱 개발
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: github
     icon_pack: fab
-    link: https://github.com/woojung1234 # For a direct email link, use "mailto:test@example.org".
-  - icon: instagram
-    icon_pack: fab
-    link: https://www.instagram.com/kwjwoojung/
-# Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/woojung1234
+    link: https://github.com/woojung1234
+  - icon: envelope
+    icon_pack: fas
+    link: mailto:woojung.dev@gmail.com
 
 # Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
@@ -62,8 +40,34 @@ social:
 #email: ""
 ---
 
-전북대에서 통계와 컴퓨터 공학을 전공하고 있는 김우중입니다. 제 목표는 웹 개발을 잘하게 되는 것입니다. 관심 분야는 게임 통계 사이트 제작, 쇼핑몰 제작을 해보고 싶습니다. 관심을 갖게 된 지 얼마 되지 않아 웹 개발 언어는 아직 미숙합니다. 이번 학기에는 웹 개발에 익숙해지는 것을 목표로 하고 있습니다. 방문해주셔서 감사합니다.
+<div style="color: var(--bs-body-color, #374151); line-height: 1.6;">
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} pdf파일입니다. 최근에 발표했던 자료 넣었습니다.
+**전북대학교 통계학과 4학년**이며 **컴퓨터공학을 복수전공**하고 있는 김우중입니다.
 
-[project](https://woojung1234.github.io/ko/project/) 프로젝트는 이쪽에! 😍
+**AI와 데이터 기술을 활용한 실생활 문제 해결**에 특화된 개발자를 목표로 하고 있으며, 다음과 같은 프로젝트들을 진행해왔습니다:
+
+### 🚀 주요 프로젝트
+- **생성형 AI 여행지 추천 시스템**: GPT API를 활용한 개인맞춤형 여행 플래너
+- **Flavor Diffusion 페어링 서비스**: 머신러닝 기반 술과 음식 매칭 서비스  
+- **복지서비스 통합 가계부 앱**: 개인 맞춤형 복지서비스와 가계 관리 통합 솔루션
+
+### 💻 기술 스택
+- **Frontend**: React, JavaScript, HTML/CSS, Tailwind CSS
+- **Backend**: Node.js, Express, MongoDB, MySQL
+- **AI/ML**: Python, TensorFlow, OpenAI API, Langchain
+- **Mobile**: React Native, Expo, Firebase
+
+### 📊 자격증 및 성과
+- **SQLD** (SQL 개발자) 자격증 취득
+- **정보처리기사** 필기 합격
+- 다수의 **AI 기반 웹/앱 서비스** 개발 경험
+
+</div>
+
+---
+
+<div style="text-align: center; margin: 2rem 0;">
+<a href="/ko/project/" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3); transition: all 0.3s ease;">
+🚀 프로젝트 포트폴리오 보기
+</a>
+</div>
