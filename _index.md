@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2024-03-25
+date: 2025-06-21
 type: landing
 
 sections:
@@ -11,7 +11,7 @@ sections:
   - block: features
     content:
       title: <span style="font-size:70%">자기소개 요약본</span>
-      text: <br><span style="font-size:125%">전북대학교 통계학과 3학년이며 컴퓨터 공학을 복수 전공하고 있습니다.</span> <br><br>
+      text: <br><span style="font-size:125%">전북대학교 통계학과 4학년이며 컴퓨터 공학을 복수 전공하고 있습니다.</span> <br><span style="font-size:110%">AI와 데이터를 활용한 실생활 문제 해결에 관심이 많습니다.</span> <br><br>
     design:
       columns: '3'
     
@@ -20,8 +20,8 @@ sections:
   - block: slider
     content:
       slides:
-      - title: <span style="font-size:80%">데이터 시각화</span>
-        content: <span style="font-size:80%">Jupyter Notebook과 파이썬 활용</span>
+      - title: <span style="font-size:80%">생성형 AI 여행지 추천</span>
+        content: <span style="font-size:80%">https://github.com/woojung1234/travel.git</span>
         align: center
         background:
           image:
@@ -30,8 +30,8 @@ sections:
               brightness: 0.6
           position: center
           color: '#333'
-      - title: <span style="font-size:80%">캐글 활동</span>
-        content: <span style="font-size:80%">캐글을 활용한 인공지능 활용</span>
+      - title: <span style="font-size:80%">Flavor Diffusion 페어링</span>
+        content: <span style="font-size:80%">https://github.com/woojung1234/ai-pairingsystem.git</span>
         align: center
         background:
           image:
@@ -40,8 +40,8 @@ sections:
               brightness: 0.6
           position: right
           color: '#666'
-      - title: <span style="font-size:80%">타이타닉</span>
-        content: <span style="font-size:80%">캐글 중 타이타닉 데이터를 이용한 데이터 분석</span>
+      - title: <span style="font-size:80%">복지 + 가계부 앱 금복이</span>
+        content: <span style="font-size:80%">https://github.com/gumwoo/donghang_f.git</span>
         align: center
         background:
           image:
@@ -60,17 +60,17 @@ sections:
   - block: portfolio
     content:
       title: '프로젝트'
-      subtitle: '학교 수업 중 진행한 것입니다.'
+      subtitle: 'AI와 데이터 기술을 활용한 실생활 문제 해결 프로젝트들'
       page_type: project
       filter_button:
         - name: 전체
           tag: '*'
-        - name: 첫번째
-          tag: ML
-        - name: 두번째
-          tag: RA
-        - name: 세번째
-          tag: AL
+        - name: AI 서비스
+          tag: AI
+        - name: 웹 개발
+          tag: Web
+        - name: 모바일 앱
+          tag: App
     design:
       columns: '3'
       view: masonry
@@ -80,8 +80,8 @@ sections:
   - block: features
     id: features
     content:
-      title: <span style="font-size:75%">관심분야</span>
-      text: 저는 이런 것들에 관심이 있습니다.<br><br><br><br>
+      title: <span style="font-size:75%">핵심 역량</span>
+      text: 다양한 기술을 활용해 실제 문제를 해결합니다.<br><br><br><br>
       items:
         - name: 웹 개발 (Web-Development)
           icon: laptop
@@ -91,30 +91,66 @@ sections:
           icon: gamepad
           icon_pack: fas
           description:  <span style="font-size:90%">league of legends 경기 데이터를 통한 분석</span><br><br>
-        - name: 유튜브
-          icon: youtube
+        - name: 생성형 AI 활용
+          icon:  robot
           icon_pack: fab
-          description:  <span style="font-size:90%">최신 트렌드 파악</span><br><br>
+          description:  <span style="font-size:90%">GPT API, 프롬프트 엔지니어링을 통한 지능형 서비스 개발</span><br><br>
 
-        - name: 애플 (Solution)
-          icon: app-store-ios
+        - name: 풀스택 개발
+          icon: code
           icon_pack: fab
-          description:  <span style="font-size:90%">애플 주식 경향 트렌드 알아보기</span><br><br>
+          description:  <span style="font-size:90%">프론트엔드부터 백엔드까지 통합 서비스 구현</span><br><br>
+
+  # 기술 스택 섹션
+  - block: features
+    content:
+      title: <span style="font-size:75%">기술 스택</span>
+      text: 프로젝트에서 활용하는 주요 기술들입니다.<br><br>
+      items:
+        - name: AI/ML
+          icon: brain
+          icon_pack: fas
+          description: <span style="font-size:85%">Python, TensorFlow, PyTorch, OpenAI API, Langchain</span><br><br>
+        
+        - name: Backend
+          icon: server
+          icon_pack: fas
+          description: <span style="font-size:85%">Node.js, Express, Django, PostgreSQL, MongoDB</span><br><br>
+        
+        - name: Frontend
+          icon: window-maximize
+          icon_pack: fas
+          description: <span style="font-size:85%">React, Vue.js, TypeScript, Tailwind CSS</span><br><br>
+
+        - name: Mobile
+          icon: mobile-alt
+          icon_pack: fas
+          description: <span style="font-size:85%">React Native, Flutter, Firebase</span><br><br>
+
+        - name: Data Science
+          icon: chart-line
+          icon_pack: fas
+          description: <span style="font-size:85%">Pandas, NumPy, Matplotlib, Seaborn, R</span><br><br>
+
+        - name: Tools & Deployment
+          icon: tools
+          icon_pack: fas
+          description: <span style="font-size:85%">Git, Docker, AWS, Vercel, Netlify</span><br><br>
   
   - block: collection
     content:
       id: section-1
-      title: 희망사항
-      subtitle:
+      title: 개발 블로그
+      subtitle: 프로젝트 진행 과정과 학습 내용을 기록합니다
       text:
       count: 3
       offset: 0
       order: desc
       filters:
         folders:
-          - web
-          - rich
-          - youtube
+          - ai-travel
+          - flavor-pairing
+          - welfare-app
     design:
       columns: '2'
      
