@@ -115,17 +115,17 @@ sections:
         - name: Backend
           icon: server
           icon_pack: fas
-          description: <span style="font-size:85%">Node.js, Express, Django, PostgreSQL, MongoDB</span><br><br>
+          description: <span style="font-size:85%">Node.js, Express, MySQL, PostgreSQL, MongoDB</span><br><br>
         
         - name: Frontend
           icon: window-maximize
           icon_pack: fas
-          description: <span style="font-size:85%">React, Vue.js, TypeScript, Tailwind CSS</span><br><br>
+          description: <span style="font-size:85%">React, javaScript, Tailwind CSS</span><br><br>
 
         - name: Mobile
           icon: mobile-alt
           icon_pack: fas
-          description: <span style="font-size:85%">React Native, Flutter, Firebase</span><br><br>
+          description: <span style="font-size:85%">React Native,Expo go</span><br><br>
 
         - name: Data Science
           icon: chart-line
@@ -135,7 +135,7 @@ sections:
         - name: Tools & Deployment
           icon: tools
           icon_pack: fas
-          description: <span style="font-size:85%">Git, Docker, AWS, Vercel, Netlify</span><br><br>
+          description: <span style="font-size:85%">Git, Docker, AWS</span><br><br>
   
   - block: collection
     content:
