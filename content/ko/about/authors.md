@@ -6,7 +6,7 @@ title: 김우중
 superuser: true
 
 # Role/position
-role: '전북대 통계학과 3학년, 컴퓨터공학 복수전공'
+role: '전북대 통계학과 4학년, 컴퓨터공학 복수전공'
 # Status emoji
 status:
   icon: ☕️
@@ -17,12 +17,13 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 전북대 통계학과 3학년, 컴퓨터 공학 복수전공 중.
+bio: 전북대 통계학과 4학년, 컴퓨터 공학 복수전공 중.
 
 interests:
-- 웹서비스
+- 웹 개발
 - 통계학
-- 축구
+- 앱 개발
+- AI Agent
 
 #education:
 #  courses:
@@ -62,7 +63,7 @@ social:
 #email: ""
 ---
 
-전북대에서 통계와 컴퓨터 공학을 전공하고 있는 김우중입니다. 제 목표는 웹 개발을 잘하게 되는 것입니다. 관심 분야는 게임 통계 사이트 제작, 쇼핑몰 제작을 해보고 싶습니다. 관심을 갖게 된 지 얼마 되지 않아 웹 개발 언어는 아직 미숙합니다. 이번 학기에는 웹 개발에 익숙해지는 것을 목표로 하고 있습니다. 방문해주셔서 감사합니다.
+전북대에서 통계와 컴퓨터 공학을 전공하고 있는 김우중입니다. React, node.js, express 서비 기반의 서비스 개발을 주로 하였습니다. MongoDB, MySQL 등 사용 가능합니다. SQLD 자격증과 정보처리기사 필기 합격 상태입니다. 웹과 앱 서비스 안에 다양한 정보를 생성형 AI를 활용하여 사용자에게 제공하는 것을 주로 개발하였습니다. 방문해주셔서 감사합니다.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} pdf파일입니다. 최근에 발표했던 자료 넣었습니다.
 

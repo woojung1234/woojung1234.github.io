@@ -21,7 +21,7 @@ sections:
     content:
       slides:
       - title: <span style="font-size:80%">생성형 AI 여행지 추천</span>
-        content: <span style="font-size:80%">https://github.com/woojung1234/travel.git</span>
+        content: <span style="font-size:80%">https://github.com/gumwoo/travel.git</span>
         align: center
         background:
           image:
