@@ -3,108 +3,83 @@
 # Documentation: https://docs.hugoblox.com/
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
-
+# Appearance - Clean and Modern Design
 appearance:
-  theme_day: custom
-  theme_night: custom
+  theme_day: minimal
+  theme_night: minimal
   font: minimal
   font_size: L
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: '전북대 김우중'  # 자신의 이름 또는 브랜드명
-    description: '전북대학교에서 컴퓨터 공학을 복수 전공하는 김우중의 블로그입니다.'  # 간단한 자기소개 및 포트폴리오 설명
+    org_name: '김우중 - AI & Data Developer'
+    description: '전북대학교 통계학과 4학년, AI와 데이터를 활용한 실생활 문제 해결에 특화된 개발자 김우중의 포트폴리오입니다.'
   analytics:
-    google_analytics: ''  # Google Analytics ID 추가
+    google_analytics: ''
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
   verification:
-    google: ''  # Google Search Console에 등록 후 얻은 verification code 추가
+    google: ''
     baidu: ''
 
-
-# Site header
-
+# Site header - Clean Navigation
 header:
-  logo: "assets/media/logo.png"
   navbar:
     enable: true
     align: c
-    show_logo: true
+    show_logo: false
     show_language: false
     show_day_night: true
-    show_search: true
+    show_search: false
     highlight_active_link: true
 
+# Footer - Minimal Design
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© 2025 김우중. All rights reserved.'
 
 # Localization
-
 locale:
-  date_format: 'Sep 25, 2024'
+  date_format: 'Jan 2, 2006'
   time_format: '3:04 PM'
 
-# Site features
-
+# Site features - Optimized for Portfolio
 features:
   syntax_highlighter:
     enable: true
     extra_languages:
       - r
       - latex
+      - python
+      - javascript
   math:
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/woojung1234/woojung1234.github.io'
     content_dir: content
     branch: main
   avatar:
-    gravatar: true
+    gravatar: false
     shape: circle
   comment:
     provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
   search:
-    provider: 'wowchemy'
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: true
+    provider: ''
   map:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
-  
 
-
+# Extensions
 extensions:
   cms:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true
