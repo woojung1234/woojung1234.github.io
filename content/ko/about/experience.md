@@ -44,7 +44,7 @@ experience:
     location: 전북 전주시
     date_start: '2020-03-01'
     date_end: ''
-    description: 통계학과 3학년 재학중이며 컴퓨터공학 복수전공 중
+    description: 통계학과 4학년 재학중이며 컴퓨터공학 복수전공 중
 
 design:
   columns: '1'
