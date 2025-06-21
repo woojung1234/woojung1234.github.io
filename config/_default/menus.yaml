@@ -1,41 +1,25 @@
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
-  #     desired widget in your `content/home/` folder.
-  #   The weight parameter defines the order that the links will appear in.
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
 
 main:
   - name: Home
     url: /
     weight: 10
  
-  - name: introduce
+  - name: About
     url: about/
     weight: 15
  
   - name: University
-    url: https://stat.jbnu.ac.kr/stat/index.do#:~:text=%EC%B0%BE%EC%95%84%EC%98%A4%EC%8B%9C%EB%8A%94%EA%B8%B8.
+    url: https://stat.jbnu.ac.kr/stat/index.do
     weight: 20
  
-  - name: project
+  - name: Projects
     url: project/
     weight: 25
 
-  - name: Dream
-    url: /
+  - name: Contact
+    url: /#contact
     weight: 30
-    identifier: "Dream"
-  
-  - name: web
-    url: /ko/web/
-    weight: 10
-    parent:  "Dream"
- 
-  - name: young & rich
-    url: /ko/rich/
-    weight: 15
-    parent:  "Dream"
-
-  - name: youtube
-    url: /ko/youtube/
-    weight: 20
-    parent:  "Dream"
