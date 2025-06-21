@@ -13,61 +13,118 @@ header:
 ---
 
 <style>
-/* 프로젝트 페이지 전체 배경 색상 변경 */
-body {
+/* 강력한 CSS 덮어쓰기 */
+html, body {
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
 }
 
-/* 프로젝트 페이지 컨테이너 스타일링 */
-.page-wrapper, .article-container, main {
+/* 모든 가능한 배경 클래스 덮어쓰기 */
+.page-wrapper, 
+.article-container, 
+main, 
+.main-content,
+.wg-collection,
+.page-collection,
+.hero-widget,
+#main,
+.site-content {
   background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
-/* 프로젝트 카드 배경 개선 */
+/* 페이지 헤더 */
+.page-header {
+  background: transparent !important;
+  padding: 3rem 0 !important;
+}
+
+/* 프로젝트 카드 */
 .card, .portfolio-item {
-  background: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.95) !important;
   border: 1px solid rgba(99, 102, 241, 0.1) !important;
   border-radius: 12px !important;
-  box-shadow: 0 4px 20px rgba(99, 102, 241, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
   transition: all 0.3s ease !important;
 }
 
 .card:hover, .portfolio-item:hover {
-  transform: translateY(-5px) !important;
-  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.15) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.12) !important;
 }
 
-/* 프로젝트 제목 스타일링 */
-.page-header h1 {
-  color: #1f2937 !important;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
-}
-
-/* 프로젝트 설명 텍스트 */
-.page-header p {
-  color: #4b5563 !important;
-}
-
-/* 다크모드 대응 */
+/* 다크모드 */
 @media (prefers-color-scheme: dark) {
-  body {
+  html, body {
     background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
   }
   
   .card, .portfolio-item {
-    background: rgba(30, 41, 59, 0.9) !important;
+    background: rgba(30, 41, 59, 0.95) !important;
     border: 1px solid rgba(99, 102, 241, 0.2) !important;
-  }
-  
-  .page-header h1 {
-    color: white !important;
-  }
-  
-  .page-header p {
-    color: #cbd5e1 !important;
   }
 }
 </style>
+
+<script>
+// JavaScript로 배경색 강제 변경
+document.addEventListener('DOMContentLoaded', function() {
+  // 모든 가능한 배경 요소들
+  const elementsToChange = [
+    'html',
+    'body', 
+    '.page-wrapper',
+    '.article-container',
+    'main',
+    '.main-content',
+    '.wg-collection',
+    '.page-collection',
+    '.hero-widget',
+    '#main',
+    '.site-content'
+  ];
+  
+  elementsToChange.forEach(selector => {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(el => {
+      el.style.setProperty('background', 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)', 'important');
+      el.style.setProperty('background-color', 'transparent', 'important');
+      el.style.setProperty('background-image', 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)', 'important');
+    });
+  });
+  
+  // 다크모드 감지
+  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    elementsToChange.forEach(selector => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach(el => {
+        el.style.setProperty('background', 'linear-gradient(135deg, #1e293b 0%, #334155 100%)', 'important');
+        el.style.setProperty('background-image', 'linear-gradient(135deg, #1e293b 0%, #334155 100%)', 'important');
+      });
+    });
+  }
+});
+
+// 테마 변경 감지
+if (window.matchMedia) {
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+    const elementsToChange = ['html', 'body', '.page-wrapper', 'main'];
+    
+    elementsToChange.forEach(selector => {
+      const elements = document.querySelectorAll(selector);
+      elements.forEach(el => {
+        if (e.matches) {
+          // 다크모드
+          el.style.setProperty('background', 'linear-gradient(135deg, #1e293b 0%, #334155 100%)', 'important');
+        } else {
+          // 라이트모드
+          el.style.setProperty('background', 'linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)', 'important');
+        }
+      });
+    });
+  });
+}
+</script>
 
 <div style="padding: 2rem 0; text-align: center;">
 <h1 style="color: #1f2937; font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem;">프로젝트 포트폴리오</h1>
