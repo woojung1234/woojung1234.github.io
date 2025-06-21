@@ -17,13 +17,11 @@ sections:
       columns: '1'
       background:
         color: '#f8fafc'
-        gradient_start: '#f8fafc'
-        gradient_end: '#ffffff'
       spacing:
         padding: ['60px', '0', '60px', '0']
     
 
-  # 슬라이더 섹션 - 색감 통일 및 깔끔한 디자인
+  # 슬라이더 섹션 - 눈에 편한 색상으로 변경
   - block: slider
     content:
       slides:
@@ -34,9 +32,9 @@ sections:
           image:
             filename: image1.jpg
             filters:
-              brightness: 0.4
+              brightness: 0.5
           position: center
-          color: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+          color: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)'
       - title: <span style="font-size:85%; color: #ffffff; font-weight: 600; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Flavor Diffusion 페어링</span>
         content: <span style="font-size:75%; color: #f1f5f9; text-shadow: 0 1px 3px rgba(0,0,0,0.4);">머신러닝 기반 술과 음식 매칭 서비스</span>
         align: center
@@ -44,9 +42,9 @@ sections:
           image:
             filename: image2.jpg
             filters:
-              brightness: 0.4
+              brightness: 0.5
           position: center
-          color: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
+          color: 'linear-gradient(135deg, #ec4899 0%, #f97316 100%)'
       - title: <span style="font-size:85%; color: #ffffff; font-weight: 600; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">복지 + 가계부 앱 금복이</span>
         content: <span style="font-size:75%; color: #f1f5f9; text-shadow: 0 1px 3px rgba(0,0,0,0.4);">개인 맞춤형 복지서비스와 가계 관리 통합 솔루션</span>
         align: center
@@ -54,9 +52,9 @@ sections:
           image:
             filename: image3.jpg
             filters:
-              brightness: 0.4
+              brightness: 0.5
           position: center
-          color: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'
+          color: 'linear-gradient(135deg, #10b981 0%, #059669 100%)'
     design:
       slide_height: '400px'
       is_fullscreen: false
