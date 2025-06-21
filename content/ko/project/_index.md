@@ -1,56 +1,17 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
+title: 프로젝트 포트폴리오
 date: 2024-03-25
-type: landing
+type: collection
 
-sections:
+# View.
+view: masonry
 
-  - block: features
-    content:
-      title: project
-      text: 학교 수업 중 진행한 프로젝트입니다.
-  - block: slider
-    content:
-      slides:
-      - title: 데이터 시각화
-        content: 'jupyter notebook과 파이썬 활용'
-        align: center
-        background:
-          image:
-            filename: image1.jpg
-            filters:
-              brightness: 0.5
-          position: center
-          color: '#333'
-      - title: 캐글 활동
-        content: 캐글을 활용한 인공지능 활용
-        align: center
-        background:
-          image:
-            filename: image2.jpg
-            filters:
-              brightness: 0.7
-          position: right
-          color: '#666'
-      - title: 타이타닉
-        content: '캐글 중 타이타닉 데이터를 이용한 데이터 분석'
-        align: center
-        background:
-          image:
-            filename: image3.jpg
-            filters:
-              brightness: 0.7
-          position: center
-          color: '#555'
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000
-
-  
+# Optional header image (relative to `assets/media/` folder).
+header:
+  caption: ""
+  image: ""
 ---
+
+AI와 데이터 기술을 활용한 실생활 문제 해결 프로젝트들입니다.
+
+각 프로젝트는 실제 사용자의 문제를 해결하고, 사회적 가치를 창출하는 것을 목표로 합니다.
