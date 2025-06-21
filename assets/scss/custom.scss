@@ -1,0 +1,97 @@
+/* 사용자 정의 CSS - 프로젝트 페이지 배경색 변경 */
+
+/* 프로젝트 페이지 배경 완전히 덮어쓰기 */
+.projects-page,
+.page-collection,
+body[class*="project"],
+.wg-collection {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+}
+
+/* 프로젝트 페이지 헤더 배경 제거 */
+.page-header {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* 전체 페이지 래퍼 배경 변경 */
+.page-wrapper,
+main,
+.main-content {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%) !important;
+}
+
+/* 프로젝트 카드 스타일링 */
+.card,
+.portfolio-item,
+.project-card {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid rgba(99, 102, 241, 0.1) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+.card:hover,
+.portfolio-item:hover,
+.project-card:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 30px rgba(99, 102, 241, 0.12) !important;
+}
+
+/* 프로젝트 제목 색상 */
+.page-header h1,
+.project-title {
+  color: #1f2937 !important;
+  font-weight: 700 !important;
+}
+
+/* 프로젝트 설명 텍스트 */
+.page-header p,
+.project-description {
+  color: #6b7280 !important;
+}
+
+/* 다크모드 대응 */
+@media (prefers-color-scheme: dark) {
+  .projects-page,
+  .page-collection,
+  body[class*="project"],
+  .wg-collection,
+  .page-wrapper,
+  main,
+  .main-content {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%) !important;
+  }
+  
+  .card,
+  .portfolio-item,
+  .project-card {
+    background: rgba(30, 41, 59, 0.95) !important;
+    border: 1px solid rgba(99, 102, 241, 0.2) !important;
+  }
+  
+  .page-header h1,
+  .project-title {
+    color: white !important;
+  }
+  
+  .page-header p,
+  .project-description {
+    color: #cbd5e1 !important;
+  }
+}
+
+/* Hugo Blox 테마 특정 클래스 덮어쓰기 */
+.hero-title,
+.hero-lead {
+  color: #1f2937 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hero-title,
+  .hero-lead {
+    color: white !important;
+  }
+}
