@@ -5,7 +5,7 @@ tags:
   - AI
   - Web
 date: 2024-12-01
-external_link: https://github.com/gumwoo/travel.git
+external_link: https://github.com/woojung1234/travel.git
 image:
   caption: 'AI 여행지 추천 시스템 인터페이스'
   focal_point: Smart
