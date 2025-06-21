@@ -6,7 +6,7 @@ title: 김우중
 superuser: true
 
 # Role/position
-role: '전북대 3학년 재학중'
+role: '전북대 4학년 재학중'
 # Status emoji
 status:
   icon: ☕️
@@ -17,7 +17,7 @@ status:
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 전북대 통계학과 3학년, 컴퓨터 공학 복수전공 중.
+bio: 전북대 통계학과 4학년, 컴퓨터 공학 복수전공 중.
 
 interests:
 - 웹서비스
